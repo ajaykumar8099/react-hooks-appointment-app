@@ -1,0 +1,167 @@
+/* Write your CSS here */
+@media only screen and (max-width: 767px) {
+  .container {
+    background-image: linear-gradient(to top, #9796f0, #fbc7d4);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .m-head {
+    font-family: 'Roboto';
+    font-weight: 600;
+    font-size: 24px;
+    margin-right: 20px;
+  }
+  .img-cont-large-devices {
+    display: none;
+  }
+  .card {
+    padding: 10px;
+    background-color: #ffffff;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    width: 80%;
+  }
+  .form {
+    display: flex;
+    flex-direction: column;
+  }
+  .input-title {
+    padding: 10px;
+    width: 90%;
+    border: 1px solid gray;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .data-class {
+    padding: 10px;
+    width: 90%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 1px solid gray;
+  }
+  .button-add {
+    color: white;
+    background-color: blueviolet;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .un-li-container {
+    list-style-type: none;
+  }
+  .bottom-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .outline-btn {
+    border: 1px solid #8b5cf6;
+    padding: 10px;
+    border-radius: 15px;
+    color: #8b5cf6;
+    background-color: transparent;
+  }
+  .bg-btn {
+    border: none;
+    padding: 10px;
+    border-radius: 15px;
+    color: white;
+    background-color: #8b5cf6;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .container {
+    background-image: linear-gradient(to top, #9796f0, #fbc7d4);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .m-head {
+    font-family: 'Roboto';
+    font-weight: 600;
+    font-size: 24px;
+    margin-right: 20px;
+  }
+  .img-cont-large-devices {
+    display: block;
+  }
+  .image-large {
+    width: 90%;
+    margin-left: 10px;
+  }
+  .card {
+    background-color: #ffffff;
+    border-radius: 7px;
+    padding: 20px;
+    width: 80%;
+  }
+  .container-img-show-large-device {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .form {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+  }
+  .input-title {
+    padding: 10px;
+    width: 90%;
+    border: 1px solid gray;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .data-class {
+    padding: 10px;
+    width: 90%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 1px solid gray;
+  }
+  .button-add {
+    color: white;
+    background-color: blueviolet;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .un-li-container {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .bottom-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .outline-btn {
+    border: 1px solid #8b5cf6;
+    padding: 10px;
+    border-radius: 15px;
+    color: #8b5cf6;
+    background-color: transparent;
+  }
+  .bg-btn {
+    border: none;
+    padding: 10px;
+    border-radius: 15px;
+    color: white;
+    background-color: #8b5cf6;
+  }
+}

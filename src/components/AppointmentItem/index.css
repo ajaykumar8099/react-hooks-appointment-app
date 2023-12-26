@@ -1,0 +1,38 @@
+/* Write your CSS here */
+@media only screen and (max-width: 767px) {
+  .list-container {
+    border: 1px solid gray;
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .title-image-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .button-star {
+    border: none;
+    background-color: transparent;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .list-container {
+    border: 1px solid gray;
+    padding: 15px;
+    border-radius: 8px;
+    margin: 10px;
+    width: 30%;
+  }
+  .title-image-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .button-star {
+    border: none;
+    background-color: transparent;
+  }
+}
